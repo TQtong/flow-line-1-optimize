@@ -79,7 +79,7 @@ export default class FlowLineAppearance extends Cesium.PolylineMaterialAppearanc
                 color = color * 0.6;
               }
 
-              material.emission = color; 
+              material.diffuse = color; 
               
               return material;
             }
